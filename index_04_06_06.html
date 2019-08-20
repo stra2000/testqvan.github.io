@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+
+  <head>
+    <title>QVAN</title>
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/tables.css" />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="content-wrap">
+        <span>전체 항목을 필수로 입력해주세요.</span>
+
+        <!-- NICE -->
+        <div class="table-wrap">
+          <table class="multi-th">
+            <h1>카카오페이 추가 정보</h1>
+            <tbody>
+              <tr>
+                <th rowspan="2"><span>카카오 페이 머니</span></th>
+                <th><span>수수료</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                    <span class="span__text"> % (VAT 별도)</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>비고</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="내용을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th rowspan="2"><span>알리페이</span></th>
+                <th><span>수수료</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                    <span class="span__text"> % (VAT 별도)</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>비고</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="내용을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th colspan="2"><span>기타 합의 사항</span></th>
+                <td>
+                  <span>
+                    <textarea
+                      name=""
+                      class="textarea"
+                      rows="5"
+                      placeholder="내용을 입력해 주세요"
+                    ></textarea>
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="multi-th">
+            <tbody>
+              <tr>
+                <th rowspan="6">
+                  <span>공동 대표자 1</span>
+                </th>
+                <th><span>성명</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="한글 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>주민등록 번호</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>업무용 전화</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>영문명</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="영문 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>국적</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="대한민국" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>성별</span></th>
+                <td>
+                  <label><input type="radio" name="radio1" /> 남</label>
+                  <label><input type="radio" name="radio1" /> 여</label>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="multi-th">
+            <tbody>
+              <tr>
+                <th rowspan="6">
+                  <span>공동 대표자 2</span>
+                </th>
+                <th><span>성명</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="한글 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>주민등록 번호</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>업무용 전화</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>영문명</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="영문 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>국적</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="대한민국" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>성별</span></th>
+                <td>
+                  <label><input type="radio" name="radio2" /> 남</label>
+                  <label><input type="radio" name="radio2" /> 여</label>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="multi-th">
+            <tbody>
+              <tr>
+                <th rowspan="6">
+                  <span>법정 대리인</span>
+                </th>
+                <th><span>성명</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="한글 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>주민등록 번호</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>영문명</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="영문 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>국적</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="대한민국" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>성별</span></th>
+                <td>
+                  <label><input type="radio" name="radio3" /> 남</label>
+                  <label><input type="radio" name="radio3" /> 여</label>
+                </td>
+              </tr>
+              <tr>
+                <th><span>가맹 점주와의 관계</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="관계를 입력하세요" />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="multi-th">
+            <tbody>
+              <tr>
+                <th rowspan="6">
+                  <span>개인 사업자</span>
+                </th>
+                <th><span>확인</span></th>
+                <td>
+                  <span>
+                    <span>대표자와 실제 소유자가 동일합니까?</span>
+                    <label><input type="radio" name="radio4" /> 남</label>
+                    <label><input type="radio" name="radio4" /> 여</label>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>성명(한글)</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="한글 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>성명(영문)</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="영문 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>주민등록 번호</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>국적</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="대한민국" />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-wrap">
+          <table class="multi-th">
+            <h1>실제소유자 확인사항</h1>
+            <tbody>
+              <tr>
+                <th rowspan="3">
+                  <span>법인 사업자 임의단체</span>
+                </th>
+                <th><span>확인생략 대상법인</span></th>
+                <td>
+                  <span>
+                    <label><input type="checkbox" name="checkbox1-1" /> 국가,지자체,공공단체</label>
+                    <label><input type="checkbox" name="checkbox1-2" /> 금융회사</label>
+                    <label
+                      ><input type="checkbox" name="checkbox1-3" /> 사업보고서 제출 대상법인</label
+                    >
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>확인 서류</span></th>
+                <td>
+                  <span>
+                    <label><input type="checkbox" name="checkbox2-1" /> 주주명부</label>
+                    <label><input type="checkbox" name="checkbox2-2" /> 이사회명부</label>
+                    <label><input type="checkbox" name="checkbox2-3" /> 정관, 규약</label>
+                    <label><input type="checkbox" name="checkbox2-4" /> 회사자필확인서</label>
+                    <label><input type="checkbox" name="checkbox2-5" /> 기타서류</label>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>실제 소유자 구분</span></th>
+                <td>
+                  <span>
+                    <ul>
+                      <li>
+                        <label>
+                          <input type="checkbox" name="checkbox2-1" />
+                          <span class="bold"> 1단계 </span> 25% 이상의 지분을 소유한 자(자연인)
+                        </label>
+                      </li>
+                      <li>
+                        <div class="list-padding">
+                          <span>
+                            <span class="bold"> 2단계 </span>
+                            1단계를 확인할 수 없는 경우로, 아래 중 어느 하나에 해당하는 자
+                            <ul>
+                              <li>
+                                <label>
+                                  <input type="checkbox" name="checkbox2-2-1" />
+                                  <span class="bold">&#10112;</span>
+                                  최대 지분 소유자
+                                </label>
+                              </li>
+                              <li>
+                                <label>
+                                  <input type="checkbox" name="checkbox2-2-2" />
+                                  <span class="bold">&#10113;</span>
+                                  대표자, 업무 진행사원 또는 임원 등의 과반수를 선임한 주주(자연인)
+                                </label>
+                              </li>
+                              <li>
+                                <label>
+                                  <input type="checkbox" name="checkbox2-2-3" />
+                                  <span class="bold">&#10114;</span>
+                                  1,2 외에 법인 또는 단체를 사실상 지배하는 자
+                                </label>
+                              </li>
+                            </ul>
+                          </span>
+                        </div>
+                      </li>
+                      <li>
+                        <label>
+                          <input type="checkbox" name="checkbox3-1" />
+                          <span class="bold"> 3단계 </span> 1,2단계를 확인할 수 없는 경우로, 법인
+                          또는 단체의 대표자
+                        </label>
+                      </li>
+                    </ul>
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="multi-th">
+            <tbody>
+              <tr>
+                <th rowspan="5">
+                  <span>실제 소유자1</span>
+                </th>
+                <th><span>성명(한글)</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="한글 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>성명(영문)</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="영문 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>지분율</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="1단계, 2단계 &#10112;인 경우" />
+                    <span class="span__text"> %</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>생년월일</span></th>
+                <td>
+                  <span>
+                    <input type="date" name="" />
+                    <button class="btn-date">날짜 선택</button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>국적</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="대한민국" />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-wrap">
+          <table class="multi-th">
+            <h1>최대 지분 (25% 이상)을 소유한 자연인이 중복인 경우 정보 기재</h1>
+            <tbody>
+              <tr>
+                <th rowspan="5">
+                  <span>실제 소유자2</span>
+                </th>
+                <th><span>성명(한글)</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="한글 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>성명(영문)</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="영문 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>지분율</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="1단계, 2단계 &#10112;인 경우" />
+                    <span class="span__text"> %</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>생년월일</span></th>
+                <td>
+                  <span>
+                    <input type="date" name="" />
+                    <button class="btn-date">날짜 선택</button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>국적</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="대한민국" />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="multi-th">
+            <tbody>
+              <tr>
+                <th rowspan="5">
+                  <span>실제 소유자3</span>
+                </th>
+                <th><span>성명(한글)</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="한글 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>성명(영문)</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="영문 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>지분율</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="1단계, 2단계 &#10112;인 경우" />
+                    <span class="span__text"> %</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>생년월일</span></th>
+                <td>
+                  <span>
+                    <input type="date" name="" />
+                    <button class="btn-date">날짜 선택</button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>국적</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="대한민국" />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="multi-th">
+            <tbody>
+              <tr>
+                <th rowspan="5">
+                  <span>실제 소유자4</span>
+                </th>
+                <th><span>성명(한글)</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="한글 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>성명(영문)</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="영문 이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>지분율</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="1단계, 2단계 &#10112;인 경우" />
+                    <span class="span__text"> %</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>생년월일</span></th>
+                <td>
+                  <span>
+                    <input type="date" name="" />
+                    <button class="btn-date">날짜 선택</button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>국적</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="대한민국" />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-wrap">
+          <table class="multi-th">
+            <h1>가맹점정보 확인사항</h1>
+            <tbody>
+              <tr>
+                <th rowspan="2">
+                  <span>공통</span>
+                </th>
+                <th><span>거래목적</span></th>
+                <td>
+                    <span>
+                        <label class="label__margin"><input type="checkbox" name="checkbox4-1" /> 사업상 거래</label>
+                        <label><input type="checkbox" name="checkbox4-2" /> 기타<span>( <input type="text" name=""/> )</span></label>
+                      </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>거래 자금의 원천 및 출처</span></th>
+                <td>
+                  <span>
+                    
+                  </span>
+                </td>
+              </tr>
+
+              <tr>
+                <th rowspan="2">
+                  <span>개인 사업자</span>
+                </th>
+                <th><span>본인확인</span></th>
+                <td>
+                  <span>
+                    
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>국내 거주여부</span></th>
+                <td>
+                  <span>
+                   
+                  </span>
+                </td>
+              </tr>
+
+              <tr>
+                <th rowspan="2">
+                  <span>비영리 법인 / 임의 단체</span>
+                </th>
+                <th><span>설립목적</span></th>
+                <td>
+                  <span>
+                   
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>확인서류</span></th>
+                <td>
+                  <span>
+                   
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+
+  <head>
+    <title>QVAN</title>
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/tables.css" />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="content-wrap">
+        <span>전체 항목을 필수로 입력해주세요.</span>
+
+        <!-- NICE -->
+        <div class="table-wrap">
+          <table class="multi-th">
+            <h1>NICE 추가 정보</h1>
+            <tbody>
+              <tr>
+                <th rowspan="2"><span>주유카드 정보</span></th>
+                <th><span>주유형태 코드</span></th>
+                <td>
+                  <span>
+                    <label><input type="radio" name="radio1" /> 주유소</label>
+                    <label><input type="radio" name="radio1" /> 충전소</label>
+                    <label><input type="radio" name="radio1" /> 무플</label>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>정유사</span></th>
+                <td>
+                  <label><input type="radio" name="radio2" /> SK</label>
+                  <label><input type="radio" name="radio2" /> S-OIL</label>
+                  <label><input type="radio" name="radio2" /> 알뜰</label>
+                  <label><input type="radio" name="radio2" /> 무플</label>
+                  <label><input type="radio" name="radio2" /> 기타</label>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="multi-th">
+            <tbody>
+              <tr>
+                <th rowspan="3">
+                  <span>부가세 정보</span>
+                </th>
+                <th><span>자료 수신 여부</span></th>
+                <td>
+                  <span>
+                    <label><input type="radio" name="radio3" /> 예</label>
+                    <label><input type="radio" name="radio3" /> 아니오</label>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>수신 Fax 정보</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>수신 이메일</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="주소를 입력해주세요" />
+                    <span class="span__text"> @ </span>
+                    <select type="" name="">
+                      <option>naver.com</option>
+                      <option>hanmail.net</option>
+                      <option>gmail.com</option>
+                      <option>nate.com</option>
+                    </select>
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="multi-th">
+            <tbody>
+              <tr>
+                <th rowspan="4">
+                  <span>해외카드 매입사</span>
+                </th>
+                <th><span>비자</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>마스터</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>JCB</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>위임 신청일</span></th>
+                <td>
+                  <span>
+                    <input type="date" name="" />
+                    <button class="btn-date">날짜 선택</button>
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="single-th">
+            <tbody>
+              <tr>
+                <th>
+                  <span>VAN정보</span>
+                </th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="정보를 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- lpay -->
+        <div class="table-wrap">
+          <table class="multi-th">
+            <h1>L.Pay 추가 정보</h1>
+            <tbody>
+              <tr>
+                <th rowspan="3"><span>신용카드</span></th>
+                <th><span>수수료율</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                    <span class="span__text"> % (VAT 포함)</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>정산주기</span></th>
+                <td>
+                  <span>
+                    <span>거래일 기준 D+ </span>
+                    <select type="" name="">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>이용여부</span></th>
+                <td>
+                  <label><input type="radio" name="radio3" /> 예</label>
+                  <label><input type="radio" name="radio3" /> 아니오</label>
+                </td>
+              </tr>
+              <tr>
+                <th rowspan="3"><span>직불</span></th>
+                <th><span>수수료율</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                    <span class="span__text"> % (VAT 포함)</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>정산주기</span></th>
+                <td>
+                  <span>
+                    <span>거래일 기준 D+ </span>
+                    <select type="" name="">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>이용여부</span></th>
+                <td>
+                  <label><input type="radio" name="radio4" /> 예</label>
+                  <label><input type="radio" name="radio4" /> 아니오</label>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--SSG-->
+        <div class="table-wrap">
+          <table class="multi-th">
+            <h1>SSG 추가 정보</h1>
+            <tbody>
+              <tr>
+                <th rowspan="4"><span>계약자 정보</span></th>
+                <th><span>담당자 성명</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="이름을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>이메일</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="주소를 입력해주세요" />
+                    <span class="span__text"> @ </span>
+                    <select type="" name="">
+                      <option>naver.com</option>
+                      <option>hanmail.net</option>
+                      <option>gmail.com</option>
+                      <option>nate.com</option>
+                    </select>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>휴대 전화번호</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>일반 전화번호</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="multi-th">
+            <tbody>
+              <tr>
+                <th rowspan="3"><span>카드결제</span></th>
+                <th><span>수수료</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                    <span class="span__text"> % (VAT 별도)</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>정산주기</span></th>
+                <td>
+                  <span>
+                    <span>거래일 기준 D+ </span>
+                    <select type="" name="">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>비고</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="내용을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th rowspan="3"><span>카드 간편결제</span></th>
+                <th><span>수수료</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                    <span class="span__text"> % (VAT 별도)</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>정산주기</span></th>
+                <td>
+                  <span>
+                    <span>거래일 기준 D+ </span>
+                    <select type="" name="">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>비고</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="내용을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th rowspan="3"><span>Money</span></th>
+                <th><span>수수료</span></th>
+                <td>
+                  <span>
+                    <input type="number" name="" placeholder="숫자만 입력해 주세요" />
+                    <span class="span__text"> % (VAT 별도)</span>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>정산주기</span></th>
+                <td>
+                  <span>
+                    <span>거래일 기준 D+ </span>
+                    <select type="" name="">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <th><span>비고</span></th>
+                <td>
+                  <span>
+                    <input type="text" name="" placeholder="내용을 입력해 주세요" />
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="single-th">
+            <tbody>
+              <tr>
+                <th><span>기타사항</span></th>
+                <td>
+                  <span>
+                    <textarea
+                      name=""
+                      class="textarea"
+                      rows="5"
+                      placeholder="내용을 입력해 주세요"
+                    ></textarea>
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
